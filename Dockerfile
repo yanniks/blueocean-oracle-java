@@ -12,6 +12,8 @@ ENV JAVA_VERSION_MAJOR=8 \
     GLIBC_VERSION=2.23-r3 \
     LANG=C.UTF-8
 
+USER root
+
 # do all in one step
 RUN set -ex && \
     apk upgrade --update && \
