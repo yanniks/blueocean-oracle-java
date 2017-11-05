@@ -3,7 +3,7 @@ MAINTAINER Yannik Ehlert <kontakt@yanniks.de>
 
 # Java Version and other ENV
 ENV JAVA_VERSION_MAJOR=8 \
-    JAVA_VERSION_MINOR=144 \
+    JAVA_VERSION_MINOR=151 \
     JAVA_VERSION_BUILD=01 \
     JAVA_PACKAGE=jdk \
     JAVA_JCE=standard \
